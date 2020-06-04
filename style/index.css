@@ -529,4 +529,126 @@ header {
   font-size: 18px;
   color: #ffdd99;
 }
+
+.content__7 {
+  background-color: #3c5499;
+}
+
+.content__7 .content__7__items__text__p {
+  max-width: none;
+}
+
+.content__7 .content__7__items__text__title::after {
+  background-color: #273a71;
+}
+
+.content__7 .content__7__items__row {
+  margin-top: 75px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content__7 .content__7__items__row input, .content__7 .content__7__items__row textarea {
+  padding: 0 22px 0 22px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 12px 0 0;
+  background-color: #273a71;
+  min-height: 55px;
+  min-width: 410px;
+  border: none;
+  border-radius: 5px;
+}
+
+.content__7 .content__7__items__row input:focus, .content__7 .content__7__items__row textarea:focus {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.content__7 .content__7__items__row input:last-child {
+  margin: 0 0 0 12px;
+}
+
+.content__7 .content__7__items__row textarea {
+  padding-top: 20px;
+  margin: 0;
+  min-width: 888px;
+  max-width: 888px;
+  min-height: 200px;
+}
+
+.content__7 .button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 58px;
+}
+
+.content__7 .button-wrapper .content__7__btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 25px 60px;
+  background-color: #30bae7;
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+}
+
+.content__7 .button-wrapper .content__7__btn::after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #299ec5;
+}
+
+.content__7 .textarea {
+  margin-top: 25px;
+}
+
+footer {
+  background-color: #344b8e;
+}
+
+footer .footer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-row a {
+  color: #fff;
+  padding: 42px 0;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+footer .footer-row a:first-child {
+  padding-left: 80px;
+}
+
+footer .footer-row a:last-child {
+  padding-right: 80px;
+}
+
+footer .footer-row a:hover {
+  color: #319ccf;
+}
 /*# sourceMappingURL=index.css.map */

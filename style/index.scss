@@ -412,3 +412,96 @@ header {
         }
     }
 }
+.content__7 {
+    
+    background-color: #3c5499;
+    .content__7__items__text__p {
+        max-width: none;
+    }
+    .content__7__items__text__title::after {
+        background-color: #273a71;
+    }
+    .content__7__items__row {
+        margin-top: 75px;
+        justify-content: center;
+        input, textarea {
+            padding: 0 22px 0 22px;
+            font-size: 18px;
+            color: #fff;
+            margin: 0 12px 0 0;
+            background-color: #273a71;
+            min-height: 55px;
+            min-width: 410px;
+            border: none;
+            border-radius: 5px;
+        }
+        input:focus, textarea:focus {
+            transition: 0.3s;
+        }
+        input:last-child {
+            margin: 0 0 0 12px;
+        }
+        textarea {
+            padding-top: 20px;
+            margin: 0;
+            min-width: 888px;
+            max-width: 888px;
+            min-height: 200px;
+        }
+    }
+    .button-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 58px;
+        .content__7__btn {
+            display: inline-flex;
+            padding: 25px 60px;
+            background-color: #30bae7;
+            position: relative;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 5px;
+            position: relative;
+            border: none;
+            &::after {
+                content: '';
+                position: absolute;
+                height: 4px;
+                width: 100%;
+                bottom: 0;
+                left: 0;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                background-color: #299ec5;
+            }
+        }
+    }
+    .textarea {
+        margin-top: 25px;
+    }
+    
+}
+footer{
+    background-color: #344b8e;
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    a {
+        color: #fff;
+        padding: 42px 0;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    a:first-child {
+        padding-left: 80px;
+    }
+    a:last-child {
+        padding-right: 80px;
+    }
+    a:hover {
+        color: #319ccf;
+    }
+}
+}
